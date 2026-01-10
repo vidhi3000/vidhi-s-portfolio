@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
 
           <h1
-            className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-up"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
             Vidhi<span className="text-primary">.</span>

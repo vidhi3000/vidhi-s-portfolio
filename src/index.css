@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 40 20% 98%;
+    --foreground: 220 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 15%;
+
+    --primary: 175 65% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 25% 25%;
+
+    --muted: 220 15% 92%;
+    --muted-foreground: 220 15% 45%;
+
+    --accent: 175 50% 92%;
+    --accent-foreground: 175 65% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 175 65% 35%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(175 65% 35% / 0.08), hsl(200 60% 50% / 0.05));
+    --card-shadow: 0 4px 20px -4px hsl(220 25% 15% / 0.08);
+    --card-shadow-hover: 0 12px 32px -8px hsl(220 25% 15% / 0.12);
+    --glow-primary: 0 0 40px hsl(175 65% 35% / 0.15);
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 40 20% 98%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 40 20% 98%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 40 20% 98%;
+
+    --primary: 175 65% 45%;
+    --primary-foreground: 220 25% 8%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 40 20% 90%;
+
+    --muted: 220 20% 20%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 175 40% 20%;
+    --accent-foreground: 175 65% 75%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 175 65% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-[hsl(200_60%_45%)];
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28;
+  }
+
+  .container-narrow {
+    @apply max-w-5xl mx-auto px-6;
+  }
+}

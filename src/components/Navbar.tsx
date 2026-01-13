@@ -8,6 +8,7 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
   { href: "#contact", label: "Contact" },
+  { href: "/resume.pdf", label: "Resume", download: true },
 ];
 
 const Navbar = () => {
@@ -45,6 +46,7 @@ const Navbar = () => {
               <a
                 key={link.href}
                 href={link.href}
+                download={link.download}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {link.label}
@@ -71,6 +73,7 @@ const Navbar = () => {
                 <a
                   key={link.href}
                   href={link.href}
+                  download={link.download}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2"
                 >

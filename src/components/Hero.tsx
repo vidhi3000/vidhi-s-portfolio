@@ -53,7 +53,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="hero-outline" size="lg" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Vidhi Maharwade.pdf" download>
                 <FileText size={18} />
                 Download Resume
               </a>

@@ -98,7 +98,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/vidhi-maharwade-07979738b"
+              href="https://linkedin.com/in/vidhi-maharwade"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 bg-card rounded-lg border border-border hover:border-primary/30 hover:shadow-card transition-all duration-300 group"
@@ -109,7 +109,7 @@ const Contact = () => {
               <div>
                 <p className="font-medium text-foreground">LinkedIn</p>
                 <p className="text-muted-foreground text-sm">
-                  linkedin.com/in/vidhi-maharwade-07979738b
+                  linkedin.com/in/vidhi-maharwade
                 </p>
               </div>
             </a>

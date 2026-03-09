@@ -24,7 +24,7 @@ const projects = [
     description:
       "A learning progress tracker app that helps students monitor their educational milestones, track achievements, and visualize progress over time.",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop",
-    techStack: ["React", "TypeScript", "REST API", "CSS3"],
+    techStack: ["React", "Javascript", "CSS3"],
     liveUrl: "https:/skillforge-sandy.vercel.app/",
     githubUrl: "https://github.com/vidhi3000/skillforge",
   },

@@ -53,7 +53,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="hero-outline" size="lg" asChild>
-              <a href="/Vidhi Maharwade-Resume2026.pdf.pdf" download>
+              <a href="/Vidhi Maharwade-Resume2026.pdf" download>
                 <FileText size={18} />
                 Download Resume
               </a>

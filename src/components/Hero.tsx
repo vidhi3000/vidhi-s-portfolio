@@ -37,9 +37,8 @@ const Hero = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed animate-fade-up"
             style={{ animationDelay: "0.4s" }}
           >
-            Building scalable, responsive, and user-friendly web applications
-            using React and modern frontend tools. Passionate about clean code
-            and exceptional user experiences.
+            I build fast, accessible React apps — from e-commerce dashboards to
+            real-time collaboration tools. Currently open to frontend roles.
           </p>
 
           <div

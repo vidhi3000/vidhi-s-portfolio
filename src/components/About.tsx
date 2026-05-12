@@ -9,38 +9,22 @@ const About = () => {
 
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm a passionate{" "}
-              <span className="text-foreground font-medium">
-                Frontend Developer
-              </span>{" "}
-              focused on building beautiful, functional, and user-centric web
-              applications. With a strong foundation in modern JavaScript and
-              React ecosystem, I transform complex problems into elegant,
-              scalable solutions.
+              I've spent the last year teaching myself frontend development — no
+              bootcamp, no CS degree, just a lot of documentation, side projects,
+              and debugging at midnight.
             </p>
 
             <p>
-              My expertise lies in crafting{" "}
-              <span className="text-foreground font-medium">
-                responsive interfaces
-              </span>{" "}
-              that work seamlessly across all devices, implementing{" "}
-              <span className="text-foreground font-medium">
-                scalable state management
-              </span>{" "}
-              with Redux Toolkit, and integrating modern backend services like
-              Supabase for full-stack capabilities.
+              I specialize in React and TypeScript, and I've built full-stack
+              apps using Supabase for auth, real-time data, and database
+              management. I'm drawn to the logic side of frontend — state
+              architecture, component design, and making complex interactions
+              feel simple to the user.
             </p>
 
             <p>
-              I believe in writing{" "}
-              <span className="text-foreground font-medium">
-                clean, maintainable code
-              </span>{" "}
-              and continuously learning new technologies to stay at the
-              forefront of frontend development. When I'm not coding, you'll
-              find me exploring new design patterns, contributing to open-source
-              projects, or diving into the latest web technologies.
+              Right now I'm looking for a frontend role where I can keep
+              shipping and keep learning.
             </p>
           </div>
         </div>
